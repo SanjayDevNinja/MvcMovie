@@ -265,3 +265,8 @@ C:\Users\Lenovo\source\repos\MvcMovie\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\Lenovo\source\repos\MvcMovie\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Lenovo\source\repos\MvcMovie\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\Lenovo\source\repos\MvcMovie\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Lenovo\source\repos\MvcMovie\bin\Debug\net6.0\Amazon.Extensions.Configuration.SystemsManager.dll
+C:\Users\Lenovo\source\repos\MvcMovie\bin\Debug\net6.0\AWSSDK.AppConfigData.dll
+C:\Users\Lenovo\source\repos\MvcMovie\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\Lenovo\source\repos\MvcMovie\bin\Debug\net6.0\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\Lenovo\source\repos\MvcMovie\bin\Debug\net6.0\AWSSDK.SimpleSystemsManagement.dll

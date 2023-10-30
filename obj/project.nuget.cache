@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "hv20k2EIjdEkIT5gB5gLdlNCeTmz3O47q/VoNAxb/cbpfQUvvHllszN6wJD55xxrLkVeLGfg1k6Bac2fU42xmA==",
+  "dgSpecHash": "7wzSBgXZPrXPihZy6dG099rlwQz1m9zj5lHIvyBXuxkElKybTuYqCMGnCiGUDVQKRIv0emdcjAd55OpyLDoNUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\MvcMovie\\MvcMovie.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\amazon.extensions.configuration.systemsmanager\\6.0.0\\amazon.extensions.configuration.systemsmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\awssdk.appconfigdata\\3.7.0.23\\awssdk.appconfigdata.3.7.0.23.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\awssdk.core\\3.7.7\\awssdk.core.3.7.7.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.1\\awssdk.extensions.netcore.setup.3.7.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\awssdk.simplesystemsmanagement\\3.7.12.9\\awssdk.simplesystemsmanagement.3.7.12.9.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
@@ -87,6 +92,7 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.12\\microsoft.entityframeworkcore.tools.7.0.12.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.2\\microsoft.extensions.configuration.2.0.2.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

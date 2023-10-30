@@ -12,7 +12,8 @@ using Microsoft.Extensions.Logging;
 using MvcMovie.Models;
 using System;
 
-
+using Amazon;
+using Microsoft.Data.SqlClient;
 
 
 namespace MvcMovie
@@ -26,9 +27,24 @@ namespace MvcMovie
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            Environment.SetEnvironmentVariable("AWS_PROFILE", "lab1sanjayProfile");
+
             builder.Services.AddDbContext<MvcMovieContext>(options =>
    options.UseSqlServer(builder.Configuration.GetConnectionString("MvcMovieContext")));
 
+            /*
+            builder.Services.AddDbContext<MvcUserContext>(options =>
+  options.UseSqlServer(builder.Configuration.GetConnectionString("MvcUserContextLOCAL"))); //MvcUserContextLOCAL or MvcUserContext
+            */
+
+            
+            builder.Configuration.AddSystemsManager("/MvcMovie", new Amazon.Extensions.NETCore.Setup.AWSOptions { Region = RegionEndpoint.CACentral1 });
+
+            var connectionString = new SqlConnectionStringBuilder(builder.Configuration.GetConnectionString("MvcUserContext"));
+            connectionString.UserID = builder.Configuration["DbUser"];
+            connectionString.Password = builder.Configuration["DbPassword"];
+            builder.Services.AddDbContext<MvcUserContext>(options => options.UseSqlServer(connectionString.ConnectionString));
+            
 
             var app = builder.Build();
 
@@ -72,7 +88,7 @@ namespace MvcMovie
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Users}/{action=Index}/{id?}");
 
             app.Run();
         }
